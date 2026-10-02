@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 40px;
+            color: #333;
+        }
+        .index-container {
+            border: 2px solid #a83246;
+            padding: 20px;
+            border-radius: 8px;
+            min-height: 90vh;
+        }
+        h1 {
+            text-align: center;
+            color: #a83246;
+            font-size: 32px;
+            letter-spacing: 8px;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+            border-bottom: 2px double #a83246;
+            padding-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #b5b5b5;
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #fcf0f2;
+            color: #a83246;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        tr {
+            height: 45px;
+        }
+        /* Column Widths */
+        th:nth-child(1), td:nth-child(1) { width: 7%; }  /* S.No. */
+        th:nth-child(2), td:nth-child(2) { width: 45%; text-align: left; } /* Name of Experiment */
+        th:nth-child(3), td:nth-child(3) { width: 10%; } /* Page No. */
+        th:nth-child(4), td:nth-child(4) { width: 13%; } /* Date of Experiment */
+        th:nth-child(5), td:nth-child(5) { width: 13%; } /* Date of Submission */
+        th:nth-child(6), td:nth-child(6) { width: 12%; } /* Remarks */
+
+        @media print {
+            body { margin: 0; }
+            .index-container { border: 2px solid #a83246; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="index-container">
+    <h1>Index</h1>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>S. No.</th>
+                <th>Name of the Experiment</th>
+                <th>Page No.</th>
+                <th>Date of Experiment</th>
+                <th>Date of Submission</th>
+                <th>Remarks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- 15 blank rows for writing -->
+            <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
